@@ -21,7 +21,7 @@ function Header() {
     { name: "MOVIES", icon: HiTv },
   ];
   return (
-    <div className="flex items-center justify-between py-2 px-3">
+    <div className="flex items-center justify-between py-2 px-3 bg-secondaryColor">
       <div className="flex items-center gap-8 ">
         <img src={logo} className="w-[80px] md:w-[115px] object-cover" />
         <div className="hidden md:flex gap-8">
