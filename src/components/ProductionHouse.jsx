@@ -46,7 +46,7 @@ function ProductionHouse() {
           className="border-[2px] border-secondaryColor
         rounded-lg hover:scale-110 transition-all duration-300
         ease-in-out cursor-pointer relative shadow-md 
-        shadow-green-800"
+        shadow-primaryLight"
         >
           <img
             src={item.image}

@@ -28,7 +28,7 @@ function MovieList({ genreId, index_ }) {
     <div className="relative">
       <IoChevronBackOutline
         onClick={() => slideLeft(elementRef.current)}
-        className={`text-[50px] text-secondaryColor
+        className={`text-[50px] text-primaryLight
            p-2 z-10 cursor-pointer 
             hidden md:block absolute
             ${index_ % 3 == 0 ? "mt-[80px]" : "mt-[150px]"} `}
@@ -51,7 +51,7 @@ function MovieList({ genreId, index_ }) {
       </div>
       <IoChevronForwardOutline
         onClick={() => slideRight(elementRef.current)}
-        className={`text-[50px] text-secondaryColor hidden md:block
+        className={`text-[50px] text-primaryLight hidden md:block
            p-2 cursor-pointer z-10 top-0
             absolute right-0 
             ${index_ % 3 == 0 ? "mt-[80px]" : "mt-[150px]"}`}

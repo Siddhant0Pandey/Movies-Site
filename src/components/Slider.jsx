@@ -35,12 +35,12 @@ function Slider() {
   return (
     <div>
       <HiChevronLeft
-        className="text-secondaryColor absolute text-[40px] mt-[157px] text-6xl cursor-pointer"
+        className="text-primaryLight absolute text-[40px] mt-[157px] text-6xl cursor-pointer"
         onClick={() => slideLeft(elementRef.current)}
       />
 
       <HiChevronRight
-        className="text-secondaryColor absolute text-[40px] mt-[157px] right-0 text-6xl cursor-pointer"
+        className="text-primaryLight absolute text-[40px] mt-[157px] right-0 text-6xl cursor-pointer"
         onClick={() => slideRight(elementRef.current)}
       />
       <div
