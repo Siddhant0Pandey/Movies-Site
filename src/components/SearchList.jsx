@@ -1,5 +1,8 @@
 import React from "react";
 
 export default function SearchList() {
-  return <div>SearchList</div>;
+
+const[{id:1,name:"snadesh"}]
+
+  return <div></div>;
 }
